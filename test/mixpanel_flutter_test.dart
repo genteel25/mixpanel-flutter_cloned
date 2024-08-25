@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mixpanel_flutter/codec/mixpanel_message_codec.dart';
-import 'package:mixpanel_flutter/mixpanel_flutter.dart';
+import 'package:mixpanel_flutter_cloned/codec/mixpanel_message_codec.dart';
+import 'package:mixpanel_flutter_cloned/mixpanel_flutter.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel(
@@ -17,8 +17,8 @@ void main() {
         methodCall = m;
       });
 
-      _mixpanel =
-          await Mixpanel.init("test token", optOutTrackingDefault: false, trackAutomaticEvents: true);
+      _mixpanel = await Mixpanel.init("test token",
+          optOutTrackingDefault: false, trackAutomaticEvents: true);
     });
 
     tearDown(() {
@@ -27,8 +27,8 @@ void main() {
     });
 
     test('check initialize call', () async {
-      _mixpanel =
-          await Mixpanel.init("test token", optOutTrackingDefault: false, trackAutomaticEvents: true);
+      _mixpanel = await Mixpanel.init("test token",
+          optOutTrackingDefault: false, trackAutomaticEvents: true);
       expect(
         methodCall,
         isMethodCall(
@@ -49,8 +49,8 @@ void main() {
     });
 
     test('check initialize call with optOutTracking true', () async {
-      _mixpanel =
-          await Mixpanel.init("test token", optOutTrackingDefault: true, trackAutomaticEvents: true);
+      _mixpanel = await Mixpanel.init("test token",
+          optOutTrackingDefault: true, trackAutomaticEvents: true);
       expect(
         methodCall,
         isMethodCall(
@@ -71,8 +71,8 @@ void main() {
     });
 
     test('check initialize call with trackAutomaticEvents false', () async {
-      _mixpanel =
-      await Mixpanel.init("test token", optOutTrackingDefault: true, trackAutomaticEvents: false);
+      _mixpanel = await Mixpanel.init("test token",
+          optOutTrackingDefault: true, trackAutomaticEvents: false);
       expect(
         methodCall,
         isMethodCall(
@@ -91,7 +91,6 @@ void main() {
         ),
       );
     });
-
 
     test('check setServerURL', () async {
       _mixpanel.setServerURL("https://api-eu.mixpanel.com");
