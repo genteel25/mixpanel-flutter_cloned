@@ -1,4 +1,4 @@
-name: mixpanel_flutter
+name: mixpanel_flutter_cloned
 description: Official Flutter Tracking SDK for Mixpanel Analytics developed and maintained by Mixpanel, Inc.
 version: 2.3.1
 homepage: https://mixpanel.com
@@ -7,7 +7,7 @@ issue_tracker: https://github.com/mixpanel/mixpanel-flutter/issues
 documentation: https://developer.mixpanel.com/docs/flutter
 
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.20.0"
 
 dependencies:
@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.mixpanel.mixpanel_flutter
+        package: com.genteel25.mixpanel_flutter_cloned
         pluginClass: MixpanelFlutterPlugin
       ios:
         pluginClass: MixpanelFlutterPlugin
