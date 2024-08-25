@@ -1,7 +1,8 @@
-group 'com.mixpanel.mixpanel_flutter'
+group 'com.mixpanel.mixpanel_flutter_cloned'
 version '1.0'
 
 buildscript {
+    ext.kotlin_version = "1.7.10"
     repositories {
         google()
         mavenCentral()
@@ -9,7 +10,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.4'
+        classpath("com.android.tools.build:gradle:7.3.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
     }
 }
 
@@ -21,16 +23,17 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: "kotlin-android"
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace("com.mixpanel.mixpanel_flutter")
+        namespace("com.genteel25.mixpanel_flutter_cloned")
     }
-    compileSdkVersion 30
+    compileSdkVersion 34
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
     }
     lintOptions {
         disable 'InvalidPackage'
