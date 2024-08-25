@@ -1,4 +1,4 @@
-package com.mixpanel.mixpanel_flutter;
+package com.genteel25.mixpanel_flutter_cloned;
 
 import org.json.JSONArray;
 import org.json.JSONException;
