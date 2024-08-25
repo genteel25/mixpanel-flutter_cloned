@@ -1,5 +1,5 @@
 import 'analytics.dart';
-import 'package:mixpanel_flutter/mixpanel_flutter.dart';
+import 'package:mixpanel_flutter_cloned/mixpanel_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:mixpanel_flutter_example/widget.dart';
 

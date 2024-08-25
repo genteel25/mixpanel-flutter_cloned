@@ -3,7 +3,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:mixpanel_flutter_example/widget.dart';
-import 'package:mixpanel_flutter/mixpanel_flutter.dart';
+import 'package:mixpanel_flutter_cloned/mixpanel_flutter.dart';
 
 class EventScreen extends StatefulWidget {
   @override
