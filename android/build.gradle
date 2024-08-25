@@ -1,4 +1,4 @@
-group 'com.mixpanel.mixpanel_flutter_cloned'
+group 'com.genteel25.mixpanel_flutter_cloned'
 version '1.0'
 
 buildscript {
