@@ -4,7 +4,7 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/services.dart';
-import 'package:mixpanel_flutter/codec/mixpanel_message_codec.dart';
+import 'package:mixpanel_flutter_cloned/codec/mixpanel_message_codec.dart';
 
 /// The primary class for integrating Mixpanel with your app.
 class Mixpanel {

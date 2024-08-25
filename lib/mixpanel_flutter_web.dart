@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:mixpanel_flutter/web/mixpanel_js_bindings.dart';
 import 'package:js/js_util.dart' as js;
+import 'package:mixpanel_flutter_cloned/web/mixpanel_js_bindings.dart';
 
 /// A web implementation of the MixpanelFlutter plugin.
 class MixpanelFlutterPlugin {
