@@ -3,7 +3,7 @@
 # Run `pod lib lint mixpanel_flutter.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'mixpanel_flutter'
+  s.name             = 'mixpanel_flutter_cloned'
   s.version          = '2.3.1'
   s.summary          = 'Official Flutter Tracking Library for Mixpanel Analytics'
   s.homepage         = 'https://www.mixpanel.com'
