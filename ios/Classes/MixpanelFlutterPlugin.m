@@ -1,4 +1,4 @@
-#import "MixpanelFlutterPlugin.h"
+#import "MixpanelFlutterClonedPlugin.h"
 #if __has_include(<mixpanel_flutter/mixpanel_flutter-Swift.h>)
 #import <mixpanel_flutter/mixpanel_flutter-Swift.h>
 #else
