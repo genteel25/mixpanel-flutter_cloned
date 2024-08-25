@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface MixpanelFlutterClonedPlugin : NSObject<FlutterPlugin>
+@interface MixpanelFlutterPlugin : NSObject<FlutterPlugin>
 @end

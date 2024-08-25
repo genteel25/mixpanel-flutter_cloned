@@ -1,4 +1,4 @@
-#import "MixpanelFlutterClonedPlugin.h"
+#import "MixpanelFlutterPlugin.h"
 #if __has_include(<mixpanel_flutter/mixpanel_flutter-Swift.h>)
 #import <mixpanel_flutter/mixpanel_flutter-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "mixpanel_flutter-Swift.h"
 #endif
 
-@implementation MixpanelFlutterClonedPlugin
+@implementation MixpanelFlutterPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftMixpanelFlutterClonedPlugin registerWithRegistrar:registrar];
+  [SwiftMixpanelFlutterPlugin registerWithRegistrar:registrar];
 }
 @end

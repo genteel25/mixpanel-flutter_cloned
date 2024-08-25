@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import Mixpanel
 
-public class SwiftMixpanelFlutterClonedPlugin: NSObject, FlutterPlugin {
+public class SwiftMixpanelFlutterPlugin: NSObject, FlutterPlugin {
     
     private var instance: MixpanelInstance?
     var token: String?
@@ -14,7 +14,7 @@ public class SwiftMixpanelFlutterClonedPlugin: NSObject, FlutterPlugin {
         let readWriter = MixpanelReaderWriter()
         let codec = FlutterStandardMethodCodec(readerWriter: readWriter)
         let channel = FlutterMethodChannel(name: "mixpanel_flutter", binaryMessenger: registrar.messenger(), codec: codec)
-        let instance = SwiftMixpanelFlutterClonedPlugin()
+        let instance = SwiftMixpanelFlutterPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
     

@@ -31,7 +31,7 @@ flutter:
         package: com.genteel25.mixpanel_flutter_cloned
         pluginClass: MixpanelFlutterPlugin
       ios:
-        pluginClass: MixpanelFlutterClonedPlugin
+        pluginClass: MixpanelFlutterPlugin
       web:
         pluginClass: MixpanelFlutterPlugin
         fileName: mixpanel_flutter_web.dart
