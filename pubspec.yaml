@@ -8,7 +8,7 @@ documentation: https://developer.mixpanel.com/docs/flutter
 
 environment:
   sdk: ^3.5.0
-  flutter: '>=3.3.0'
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
@@ -31,7 +31,7 @@ flutter:
         package: com.genteel25.mixpanel_flutter_cloned
         pluginClass: MixpanelFlutterPlugin
       ios:
-        pluginClass: MixpanelFlutterPlugin
+        pluginClass: MixpanelFlutterClonedPlugin
       web:
         pluginClass: MixpanelFlutterPlugin
         fileName: mixpanel_flutter_web.dart

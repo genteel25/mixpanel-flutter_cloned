@@ -8,8 +8,8 @@
 #import "mixpanel_flutter-Swift.h"
 #endif
 
-@implementation MixpanelFlutterPlugin
+@implementation MixpanelFlutterClonedPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftMixpanelFlutterPlugin registerWithRegistrar:registrar];
+  [SwiftMixpanelFlutterClonedPlugin registerWithRegistrar:registrar];
 }
 @end
