@@ -1,6 +1,6 @@
 #import "MixpanelFlutterPlugin.h"
 #if __has_include(<mixpanel_flutter/mixpanel_flutter-Swift.h>)
-#import <mixpanel_flutter/mixpanel_flutter-Swift.h>
+#import <mixpanel_flutter_cloned/mixpanel_flutter-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.
